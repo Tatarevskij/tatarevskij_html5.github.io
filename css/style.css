@@ -161,7 +161,7 @@
 
 }
 
-content {
+.content {
 	display: flex;
 	flex-direction: column;
 }
@@ -240,6 +240,7 @@ form {
 	font-family: latoregular;
 	color:	#ffffff;
 	font-size: 15px;
+	text-transform: capitalize;
 }
 
 /*Навигация*/
@@ -352,17 +353,18 @@ form {
 .offer_big {
 	width: 560px;
 	height: 542px;
-	margin-bottom: 20px;
+	
 }
 
 .offer_small {
 	width: 560px;
 	height: 261px;
-	margin-bottom: 20px;
+	
 }
 
 .offer_big:first-of-type {
 	background-image: url(../img/for_men.jpg);
+	margin-bottom: 20px;
 }
 
 .offer_big:last-of-type {
@@ -371,6 +373,7 @@ form {
 
 .offer_small:first-of-type {
 	background-image: url(../img/for_women.jpg);
+	margin-bottom: 20px;
 }
 
 .offer_small:last-of-type  {
@@ -406,3 +409,101 @@ form {
 .offers a:hover {
 	opacity: 0.8;
 }
+
+/*Товары главная страница*/
+
+.clear_fetured {
+	height: 100px;
+}
+
+.fetured_items {
+	display: flex;
+	flex-direction: column;
+}
+
+.fetured_items_header {
+	margin: 0;
+	padding: 0;
+	height: 111px;
+	display: flex;
+	flex-direction: column;
+	list-style-type: none;
+}
+
+.fetured_items_header li {
+	margin: 0 auto;
+	font-family: latobold;
+	color:	#222222;
+	font-size: 30px;
+}
+
+.fetured_items_header li:last-child {
+	margin-top: 8px;
+	font-family: latoregular;
+	color:	#9f9f9f;
+	font-size: 14px;
+}
+
+.items_block {
+	margin-bottom: 40px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.items_block:last-of-type {
+	margin-bottom: 70px;
+}
+
+.item_img {
+	width: 261px;
+	height: 279px;
+	background-color: black;
+	z-index: 1;
+}
+
+.item {
+	text-decoration: none;
+}
+
+.item:hover {
+	-webkit-box-shadow: 0px 6px 12px -5px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 6px 12px -5px rgba(0,0,0,0.75);
+	box-shadow: 0px 6px 12px -5px rgba(0,0,0,0.75);
+}
+
+.item:hover .item_img:after {
+	z-index: 0;
+	background: url(../img/add to cart.png);
+	opacity: 0.6;
+}
+
+.item_description {
+	margin: 0;
+	padding: 0;
+	height: 83px;
+	display: flex;
+	flex-direction: column;
+	list-style-type: none;
+}
+
+.item_description li {
+	margin: 20px 0 0 14px;
+	font-family: latoregular;
+	color:	#222222;
+	font-size: 13px;
+	text-transform: uppercase;
+}
+
+.item_description li:last-child {
+	margin-top: 17px;
+	font-family: 'latobold';
+	color: #f16d7f;
+	font-size: 16px;
+}
+
+.fetured_items .btn {
+	margin: auto;
+}
+
