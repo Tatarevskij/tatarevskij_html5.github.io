@@ -10,9 +10,35 @@
 		<header>
 			<div class="container header_flex">
 				<div class="header_left">
-					<a href="index.html"><img src="../img/logo.png" alt="logo"><span>bran</span><span>d</span></a>
+					<a class="brand" href="index.html"><img src="../img/logo.png" alt="logo"><span>bran</span><span>d</span></a>
 					<form>
-						<button>Browse</button><input type="text" placeholder=" Search for item..." ><button type="submit">Search</button>
+						<select id="Browse" name="Browse">
+							<option selected="Browse" value="Browse">Browse</option>
+							<optgroup label="Women" value="Women"></optgroup>
+							<option value="">Dresses</option>
+							<option value="">Tops</option>
+							<option value="">Sweaters/Knits</option>
+							<option value="">Jackets/Coats</option>
+							<option value="">Blazers</option>
+							<option value="">Denim</option>
+							<option value="">Leggings/Pants</option>
+							<option value="">Skirts/Shorts</option>
+							<option value="">Accessories </option>
+							<option value="">Bags/Purses</option>
+							<option value="">Swimwear/Underwear</option>
+							<option value="">Nightwear</option>
+							<option value="">Shoes</option>
+							<option value="">Beauty</option>
+							<optgroup label="men" value="men"></optgroup>
+							<option value="">Tees/Tank tops</option>
+							<option value="">Shirts/Polos</option>
+							<option value="">Sweaters</option>
+							<option value="">Sweatshirts/Hoodies</option>
+							<option value="">Blazers</option>
+							<option value="">Jackets/vests</option>
+						</select>
+						<input type="text" placeholder=" Search for item..." >
+						<button type="submit">&#128269;</button>
 					</form>
 				</div>
 				<div class="header_right">
@@ -22,7 +48,7 @@
 		</header>
 		<nav class="container">
 			<ul class="menu">
-				<li><a href="#">Home</a></li>
+				<li><a href="#" class="active">Home</a></li>
 				<li><a href="#">Man</a></li>
 				<li><a href="#">Women</a></li>
 				<li><a href="#">Kids</a></li>
@@ -53,7 +79,7 @@
 				</a> 
 				<a href="#" class="offer_small">
 					<ul>
-						<li>luxirous & trendy</li>
+						<li>luxirous &amp; trendy</li>
 						<li>accesories</li>
 					</ul>
 				</a>
@@ -161,7 +187,7 @@
 				</li>
 				<li>
 					<ul>
-						<li>Sales & discounts</li>
+						<li>Sales &amp; discounts</li>
 						<li>Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive models.</li>
 					</ul>
 				</li>
@@ -173,9 +199,83 @@
 				</li>
 			</ul>
 		</div>
+	</div>
+	<div class="clear_footer">
 	</div>	
 	<footer>
-		
+		<div class="footer_top">
+			<div class="container">
+				<div class="feedback_container">
+					<img src="../img/bin_burhan.png" alt="Bin Burhan" title="Bin Burhan" width="83" height="83">
+					<ul class="feedback">
+						<li>“Vestibulum quis porttitor dui! Quisque viverra nunc mi, a pulvinar purus condimentum a. Aliquam condimentum mattis neque sed pretium”</li>
+						<li>
+							<ul>
+							 	<li>Bin Burhan</li>
+							 	<li>Dhaka, Bd</li>
+							 </ul> 
+						</li>
+						<li>
+							<ul class="feedback_selector">
+								<li><a href="#"></a></li>
+								<li><a href="#" class="active"></a></li>
+								<li><a href="#"></a></li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+				<ul class="subscribe">
+					<li>subsribe</li>
+					<li>for our newsletter and promotion</li>
+					<li><input type="text" placeholder="enter your email"><button type="submit">Subscribe</button></li>
+				</ul>
+			</div>
+		</div>
+		<div class="footer_middle container">
+			<ul class="brand_info">
+				<li><a class="brand" href="index.html"><img src="../img/logo.png" alt="logo"><span>bran</span><span>d</span></a></li>
+				<li>Objectively transition extensive data rather than cross functional solutions. Monotonectally syndicate multidisciplinary materials before go forward benefits. Intrinsicly syndicate an expanded array of processes and cross-unit partnerships. </li>
+				<li>Efficiently plagiarize 24/365 action items and focused infomediaries. Distinctively seize superior initiatives for wireless technologies. Dynamically optimize.</li>
+			</ul>
+			<nav class="footer_nav">
+				<ul>
+					<li>company</li>
+					<li><a href="#">home</a></li>
+					<li><a href="#">shop</a></li>
+					<li><a href="#">about</a></li>
+					<li><a href="#">how it works</a></li>
+					<li><a href="#">contact</a></li>
+				</ul>
+				<ul>
+					<li>information</li>
+					<li><a href="#">tearms &amp; condition</a></li>
+					<li><a href="#">privacy policy</a></li>
+					<li><a href="#">how to buy</a></li>
+					<li><a href="#">how to sell</a></li>
+					<li><a href="#">promotion</a></li>
+				</ul>
+				<ul>
+					<li>shop category</li>
+					<li><a href="#">men</a></li>
+					<li><a href="#">women</a></li>
+					<li><a href="#">child</a></li>
+					<li><a href="#">apparel</a></li>
+					<li><a href="#">brows all</a></li>
+				</ul>
+			</nav>
+		</div>
+		<div class="footer_bottom">
+			<div class="copyright container">
+				<span>&copy; 2017  brand  all rights reserved.</span>
+				<div class="icon_block">
+					<a href="#"></a>
+					<a href="#"></a>
+					<a href="#"></a>
+					<a href="#"></a>
+					<a href="#"></a>
+				</div>
+			</div>
+		</div>
 	</footer>
 </body>
 </html>
